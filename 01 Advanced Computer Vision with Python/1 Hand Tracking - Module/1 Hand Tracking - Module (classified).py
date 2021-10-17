@@ -12,6 +12,7 @@ class HandTracker():
     pTime = 0
     cTime = 0
 
+    # On creation, you can specify camera (webcam) or put a path instead to use a specific video footage. 
     def __init__(self, camera=0):
         self.cap = cv2.VideoCapture(camera)
 
@@ -47,5 +48,6 @@ class HandTracker():
             cv2.imshow("Perform tasks on specific landmarks - example 2", img)
             cv2.waitKey(1)
 
+# Initialise an object of HandTracker class, then track a hand.
 ht = HandTracker()
 ht.track_hand()
