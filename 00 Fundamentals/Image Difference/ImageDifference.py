@@ -1,4 +1,5 @@
 # References: Jie Jenn (2019) How to compare two images and display the differences using Python (Hint: Pillow) https://www.youtube.com/watch?v=fUfvBnREBFc&ab_channel=JieJenn
+# Image from Kelly Lacy https://www.pexels.com/@km-l-1179532/
 
 from PIL import Image, ImageChops
 
