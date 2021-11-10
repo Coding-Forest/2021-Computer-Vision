@@ -6,6 +6,10 @@ Computer vision fundamentals
 Concepts and Theories
 1. Gaussian Mixture Model
 
+Techniques
+1. Image Difference
+2. Image Augmentation
+
 Models studied
 1. YOLO (v4, v5)
 2. U-Net
